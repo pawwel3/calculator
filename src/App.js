@@ -115,9 +115,11 @@ const App = (props) => {
         />
       </div>
       <div>
-        <MathButton name="3" number="3" type="number" click={handleMathClick} />
+      <MathButton name="1" number="1" type="number" click={handleMathClick} />
+        
         <MathButton name="2" number="2" type="number" click={handleMathClick} />
-        <MathButton name="1" number="1" type="number" click={handleMathClick} />
+        <MathButton name="3" number="3" type="number" click={handleMathClick} />
+        
 
         <MathButton
           name="*"

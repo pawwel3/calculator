@@ -22,9 +22,15 @@ button {
   padding: 10px;
   font-size: larger;
   border-radius: 5px;
-  min-width: 5vwnp;
+  min-width: 5vw;
 }
 button:hover {
   background-color: chartreuse;
   color: blue;
+}
+@media (max-width: 600px) {
+  .contener {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
 }
